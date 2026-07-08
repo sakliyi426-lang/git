@@ -1,0 +1,7 @@
+[application]
+config/name="长生问道"
+config/description="修仙开放世界RPG"
+run/main_scene="res://scenes/main.tscn"
+
+[rendering]
+renderer/name="vulkan"
