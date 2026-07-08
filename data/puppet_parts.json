@@ -1,0 +1,81 @@
+{
+  "wooden_frame": {
+    "id": "wooden_frame",
+    "name": "木甲框架",
+    "type": "frame",
+    "quality": 0,
+    "base_hp": 30,
+    "base_defense": 2,
+    "hardness": 80,
+    "craft_materials": {"iron_ore": 3, "spirit_wood": 5},
+    "craft_time": 3,
+    "description": "基础木制傀儡框架"
+  },
+  "iron_frame": {
+    "id": "iron_frame",
+    "name": "铁甲框架",
+    "type": "frame",
+    "quality": 1,
+    "base_hp": 60,
+    "base_defense": 5,
+    "hardness": 150,
+    "craft_materials": {"iron_ore": 10, "copper_ore": 5},
+    "craft_time": 5,
+    "description": "铁制傀儡框架，更坚固"
+  },
+  "basic_core": {
+    "id": "basic_core",
+    "name": "基础核心阵盘",
+    "type": "core",
+    "quality": 0,
+    "base_attack": 3,
+    "base_speed": 2,
+    "craft_materials": {"spirit_stone": 10, "formation_scroll": 1},
+    "craft_time": 2,
+    "description": "最基础的傀儡核心"
+  },
+  "blade_arm": {
+    "id": "blade_arm",
+    "name": "刀刃臂",
+    "type": "weapon",
+    "quality": 0,
+    "attack_bonus": 5,
+    "skill_id": "blade_slash",
+    "craft_materials": {"iron_ore": 5},
+    "craft_time": 2,
+    "description": "简单的刀刃武器模块"
+  },
+  "spirit_shield": {
+    "id": "spirit_shield",
+    "name": "灵力护盾",
+    "type": "armor",
+    "quality": 0,
+    "defense_bonus": 5,
+    "skill_id": "spirit_barrier",
+    "craft_materials": {"spirit_stone": 5, "iron_ore": 3},
+    "craft_time": 2,
+    "description": "生成灵力屏障保护自身"
+  },
+  "detector": {
+    "id": "detector",
+    "name": "探测雷达",
+    "type": "function",
+    "quality": 0,
+    "effect": {"exploration_bonus": 0.2},
+    "skill_id": "scan",
+    "craft_materials": {"spirit_stone": 8, "copper_ore": 3},
+    "craft_time": 3,
+    "description": "提升探索效率20%"
+  },
+  "healer_module": {
+    "id": "healer_module",
+    "name": "治疗模块",
+    "type": "function",
+    "quality": 0,
+    "effect": {"heal_amount": 15},
+    "skill_id": "repair_light",
+    "craft_materials": {"spirit_herb": 5, "spirit_stone": 5},
+    "craft_time": 3,
+    "description": "释放治疗灵光修复目标"
+  }
+}
